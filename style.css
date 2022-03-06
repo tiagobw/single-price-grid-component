@@ -3,11 +3,11 @@
 /* Variables */
 
 :root {
-  --dark-cyan: hsl(179, 62%, 43%);
-  --light-cyan: hsl(179, 47%, 52%);
-  --bright-yellow: hsl(71, 73%, 54%);
-  --light-gray: hsl(203, 44%, 93%);
-  --grayish-blue: hsl(218, 22%, 67%);
+  --dark-cyan: #2ab2af;
+  --light-cyan: #4bbebc;
+  --bright-yellow: #c0df34;
+  --light-gray: #e5eff5;
+  --grayish-blue: #98a6bd;
   --border-radius: 0.5rem;
 }
 
@@ -114,4 +114,37 @@ body {
 
 .card__paragraph--gray {
   color: var(--grayish-blue);
+}
+
+.card__paragraph--transparent {
+  opacity: 0.8;
+}
+
+.card__price-value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: -1.1rem;
+}
+
+.card__price-period {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-left: 0.75rem;
+}
+
+.card__button {
+  background-color: var(--bright-yellow);
+  padding: 1.2rem;
+  text-decoration: none;
+  color: white;
+  border-radius: var(--border-radius);
+  display: block;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 2.1rem 0 0.5rem 0;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
 }
