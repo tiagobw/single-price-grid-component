@@ -63,13 +63,13 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 18.75rem; /* 300px */
+  grid-template-columns: 21.875rem; /* 350px */
   margin: 0 auto;
 }
 
 .card {
   background-color: #fff;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .card--dark-cyan {
@@ -88,4 +88,30 @@ body {
 .card--border-radius-bottom-mobile {
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
+}
+
+.card__header {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.card__header--cyan {
+  color: var(--dark-cyan);
+}
+
+.card__paragraph {
+  color: #fff;
+  margin: 1.5rem 0;
+}
+
+.card__paragraph--yellow {
+  color: var(--bright-yellow);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.card__paragraph--gray {
+  color: var(--grayish-blue);
 }
