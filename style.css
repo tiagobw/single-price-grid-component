@@ -72,6 +72,14 @@ body {
   padding: 2rem;
 }
 
+.card--dark-cyan {
+  background-color: var(--dark-cyan);
+}
+
+.card--light-cyan {
+  background-color: var(--light-cyan);
+}
+
 .card--border-radius-top-mobile {
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
