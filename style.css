@@ -57,14 +57,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: var(--light-gray);
 }
 
 .container {
   display: grid;
   grid-template-columns: 21.875rem; /* 350px */
-  margin: 0 auto;
+  margin: 5rem auto;
 }
 
 .card {
@@ -118,6 +117,10 @@ body {
 
 .card__paragraph--transparent {
   opacity: 0.8;
+}
+
+.card__paragraph--narrow {
+  width: 70%;
 }
 
 .card__price-value {
