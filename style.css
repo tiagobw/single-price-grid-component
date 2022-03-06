@@ -3,10 +3,12 @@
 /* Variables */
 
 :root {
-  --cyan: hsl(179, 62%, 43%);
+  --dark-cyan: hsl(179, 62%, 43%);
+  --light-cyan: hsl(179, 47%, 52%);
   --bright-yellow: hsl(71, 73%, 54%);
-  --light-gray: hsl(204, 43%, 93%);
+  --light-gray: hsl(203, 44%, 93%);
   --grayish-blue: hsl(218, 22%, 67%);
+  --border-radius: 0.5rem;
 }
 
 /* Reset */
@@ -49,4 +51,33 @@ img {
   display: block;
 }
 
-/*  */
+/* Classes */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--light-gray);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 18.75rem; /* 300px */
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.card--border-radius-top-mobile {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.card--border-radius-bottom-mobile {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
