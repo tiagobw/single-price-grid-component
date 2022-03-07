@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://single-price-grid-component-frontendmentor-challenge.netlify.app/](https://single-price-grid-component-frontendmentor-challenge.netlify.app/)
-- Live Site URL: [https://github.com/tiagobw/single-price-grid-component](https://github.com/tiagobw/single-price-grid-component)
+- Solution URL: [https://github.com/tiagobw/single-price-grid-component](https://github.com/tiagobw/single-price-grid-component)
+- Live Site URL: [https://single-price-grid-component-frontendmentor-challenge.netlify.app/](https://single-price-grid-component-frontendmentor-challenge.netlify.app/)
 
 ## My process
 
@@ -44,5 +44,4 @@ Users should be able to:
 
 ## Author
 
-- GitHub - [tiagobw](https://github.com/tiagobw)
 - Frontend Mentor - [@tiagobw](https://www.frontendmentor.io/profile/tiagobw)
